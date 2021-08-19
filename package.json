@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/hoop33/gqall#readme",
   "dependencies": {
-    "graphql-request": "^1.8.2",
-    "yargs": "^12.0.2"
+    "graphql-request": "^3.5.0",
+    "yargs": "^17.1.1"
   },
   "devDependencies": {
     "eslint": "^5.7.0",
     "eslint-config-prettier": "^3.1.0",
-    "jest": "^23.6.0",
+    "jest": "^27.0.6",
     "webpack-cli": "^4.8.0"
   }
 }
