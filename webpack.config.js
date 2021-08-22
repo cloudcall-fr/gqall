@@ -9,10 +9,11 @@ module.exports = {
       { test: /\.ts$/, use: 'ts-loader' },
     ],
   },
-  entry:  [ './src/gqall.js',
-          ],
+  entry:  { 'gqall-lib': './src/gqall.js',
+            'gqall-lib-apollo': './src/gqall-apollo.js',
+          },
   output: {
-    filename: 'gqall-lib.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
 };
