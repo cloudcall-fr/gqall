@@ -1,3 +1,3 @@
-const Client = require("../lib/client");
+const ClientA = require("../lib/client-apollo");
 global.gqall = new Object();
-global.gqall.Client = Client;
+global.gqall.Client = ClientA;
